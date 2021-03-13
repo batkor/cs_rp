@@ -1,0 +1,11 @@
+cs_rp.add_service:
+  path: '/admin/commerce/shipping-methods/manage/{commerce_shipping_method}/add_rp_service'
+  defaults:
+    _title: 'Add service'
+    _form: 'Drupal\cs_rp\Form\AddService'
+  requirements:
+    _permission: 'access commerce administration pages'
+  options:
+    parameters:
+      commerce_shipping_method:
+        type: entity:commerce_shipping_method

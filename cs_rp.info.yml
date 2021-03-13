@@ -1,0 +1,8 @@
+name: Commerce shipping Russian Post
+type: module
+description: Provides the Russian Post shipping method.
+package: Radon
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - commerce_shipping:commerce_shipping

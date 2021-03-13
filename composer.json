@@ -1,0 +1,11 @@
+{
+    "name": "drupal/cs_rp",
+    "type": "drupal-module",
+    "description": "Provides the Russian Post shipping method.",
+    "keywords": [
+        "Drupal Russian Post Commerce Shipping"
+    ],
+    "require": {
+        "lapaygroup/russianpost": "^0.9.12"
+    }
+}

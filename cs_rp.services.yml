@@ -1,0 +1,5 @@
+services:
+  russian_post_manager:
+    class: Drupal\cs_rp\RussianPostManager
+    arguments: ['@cache.default', '@config.factory']
+    
